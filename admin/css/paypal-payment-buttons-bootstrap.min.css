@@ -1,0 +1,333 @@
+.ppb-nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.ppb-nav > li {
+    position: relative;
+    display: block;
+}
+.ppb-nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.ppb-nav > li > a:hover,
+.ppb-nav > li > a:focus {
+    text-decoration: none;
+    background-color: #fff;
+}
+.ppb-nav > li.disabled > a {
+    color: #999;
+}
+.ppb-nav > li.disabled > a:hover,
+.ppb-nav > li.disabled > a:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: not-allowed;
+    background-color: transparent;
+}
+.ppb-nav .open > a,
+.ppb-nav .open > a:hover,
+.ppb-nav .open > a:focus {
+    background-color: #eee;
+    border-color: #428bca;
+}
+.ppb-nav .nav-divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.ppb-nav > li > a > img {
+    max-width: none;
+}
+.ppb-nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+.ppb-nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+.ppb-nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.ppb-nav-tabs > li > a:hover {
+    border-color: #eee #eee #ddd;
+}
+.ppb-nav-tabs > li.active > a,
+.ppb-nav-tabs > li.active > a:hover,
+.ppb-nav-tabs > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.ppb-tab-content > .ppb-tab-pane {
+    display: none;
+}
+.ppb-tab-content > .active {
+    display: block;
+}
+.ppb-nav-tabs .dropdown-menu {
+    margin-top: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.ppb-nav:after {
+    clear: both;
+}
+.ppb-nav:before,
+.ppb-nav:after {
+    display: table;
+    content: " ";
+}
+.ppb-nav-tabs a {
+    font-size: 18px;
+}
+.ppb-modal-open {
+    overflow: hidden;
+}
+.ppb-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+.ppb-modal.fade .ppb-modal-dialog {
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -moz-transition:    -moz-transform .3s ease-out;
+    -o-transition:      -o-transform .3s ease-out;
+    transition:         transform .3s ease-out;
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+}
+.ppb-modal.in .ppb-modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.ppb-modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+.ppb-modal-content {
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: none;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+}
+.modal-backdrop.fade {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.ppb-modal-header {
+    min-height: 16.42857143px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.ppb-modal-header .close {
+    margin-top: -2px;
+}
+.ppb-modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+}
+.ppb-modal-body {
+    position: relative;
+    padding: 20px;
+}
+.ppb-modal-footer {
+    padding: 19px 20px 20px;
+    margin-top: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f5f5f5;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    -webkit-box-shadow: inset 0 1px 0 #fff;
+    -moz-box-shadow: inset 0 1px 0 #fff;
+    box-shadow: inset 0 1px 0 #fff;
+}
+.ppb-modal-footer .btn + .btn {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.ppb-modal-footer .btn-group .btn + .btn {
+    margin-left: -1px;
+}
+.ppb-modal-footer .btn-block + .btn-block {
+    margin-left: 0;
+}
+@media (min-width: 768px) {
+    .ppb-modal-dialog {
+        width: 600px;
+        margin: 30px auto;
+    }
+    .ppb-modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+    .ppb-modal-sm {
+        width: 300px;
+    }
+}
+.ppb-form-horizontal .ppb-control-label,
+.ppb-form-horizontal .radio,
+.ppb-form-horizontal .checkbox,
+.ppb-form-horizontal .radio-inline,
+.ppb-form-horizontal .checkbox-inline {
+    padding-top: 7px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ppb-form-horizontal .radio,
+.ppb-form-horizontal .checkbox {
+    min-height: 27px;
+}
+.ppb-form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.ppb-form-horizontal .form-control-static {
+    padding-top: 7px;
+}
+@media (min-width: 768px) {
+    .ppb-form-horizontal .ppb-control-label {
+        text-align: right;
+    }
+}
+.ppb-form-horizontal .has-feedback .form-control-feedback {
+    top: 0;
+    right: 15px;
+}
+.ppb-form-horizontal .ppb-controls {
+    margin-left: 180px;
+}
+.ppb-form-horizontal .ppb-control-label {
+    float: left;
+    padding-top: 5px;
+    text-align: right;
+    width: 160px;
+}
+.ppb-form-horizontal .ppb-control-group::before, .ppb-form-horizontal .ppb-control-group::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.ppb-form-horizontal .ppb-control-group::after {
+    clear: both;
+}
+.ppb-form-horizontal .ppb-control-group::before, .ppb-form-horizontal .ppb-control-group::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.ppb-form-horizontal .ppb-control-group {
+    margin-bottom: 20px;
+}
+.ppb-control-group {
+    margin-bottom: 10px;
+}
+.ppb-form-horizontal .ppb-control-group {
+    margin-bottom: 20px;
+}
+.ppb-control-group.ppb-error>label, .ppb-control-group.ppb-error .help-block, .ppb-control-group.ppb-error .ppb-help-inline {
+    color: #b94a48;
+}
+.ppb-form-horizontal .ppb-control-label {
+    float: left;
+    width: 160px;
+    padding-top: 5px;
+    text-align: right;
+}
+.ppb-control-group.ppb-error input, .ppb-control-group.ppb-error select, .ppb-control-group.ppb-error textarea {
+    border-color: #b94a48;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+.ppb-help-inline {
+    display: inline-block;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+.help-block, .ppb-help-inline {
+    color: #595959;
+}
+.ppb-control-group.ppb-error .checkbox, .ppb-control-group.ppb-error .radio, .ppb-control-group.ppb-error input, .ppb-control-group.ppb-error select, .ppb-control-group.ppb-error textarea {
+    color: #b94a48;
+}
+.ppb-control-group.ppb-error>label, .ppb-control-group.ppb-error .help-block, .ppb-control-group.ppb-error .ppb-help-inline {
+    color: #b94a48;
+}
+.ppb-error {
+    border-color: none;
+    background: none;
+    border-left: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+.ppb-tab-pane p {
+    margin: 0 0 10px;
+}
+.paypale-payment-button-example pre {
+    border-radius: 0;
+    margin: 0 -23px;
+    padding: 1em 24px;
+}
+.paypale-payment-button-example {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: white;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-color: -moz-use-text-color #ddd #ddd;
+    border-image: none;
+    border-style: none solid solid;
+    border-color: #ddd;
+    border-width: 0 1px 1px;
+    margin: 0;
+    padding: 22px 22px 0;
+    position: relative;
+}
+.paypale-payment-button-edit {
+    float: right;
+}

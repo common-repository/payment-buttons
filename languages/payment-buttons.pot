@@ -1,0 +1,422 @@
+# Copyright (C) 2015 PayPal Payment Buttons
+# This file is distributed under the same license as the PayPal Payment Buttons package.
+msgid ""
+msgstr ""
+"Project-Id-Version: PayPal Payment Buttons 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/payment-buttons\n"
+"POT-Creation-Date: 2015-08-21 08:22:13+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/class-paypal-payment-buttons-admin.php:83
+msgid "Buy Now"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:84
+msgid "Add to Cart"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:85
+msgid "Donate"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:86
+msgid "Subscribe"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:90
+msgid "Buy Now buttons are perfect for single item purchases"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:91
+#: admin/class-paypal-payment-buttons-admin.php:184
+#: admin/class-paypal-payment-buttons-admin.php:279
+#: admin/class-paypal-payment-buttons-admin.php:372
+msgid "<span>copy the code below and paste it on page or post or widget."
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:92
+#: admin/class-paypal-payment-buttons-admin.php:185
+#: admin/class-paypal-payment-buttons-admin.php:280
+#: admin/class-paypal-payment-buttons-admin.php:373
+msgid " Customize &amp; Preview"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:105
+#: admin/class-paypal-payment-buttons-admin.php:198
+#: admin/class-paypal-payment-buttons-admin.php:389
+msgid "Merchant"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:108
+#: admin/class-paypal-payment-buttons-admin.php:201
+#: admin/class-paypal-payment-buttons-admin.php:209
+#: admin/class-paypal-payment-buttons-admin.php:222
+#: admin/class-paypal-payment-buttons-admin.php:296
+#: admin/class-paypal-payment-buttons-admin.php:392
+msgid "Required"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:109
+#: admin/class-paypal-payment-buttons-admin.php:202
+#: admin/class-paypal-payment-buttons-admin.php:297
+#: admin/class-paypal-payment-buttons-admin.php:393
+msgid "Email address or merchant ID"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:113
+#: admin/class-paypal-payment-buttons-admin.php:206
+#: admin/class-paypal-payment-buttons-admin.php:301
+#: admin/class-paypal-payment-buttons-admin.php:397
+msgid "Name"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:119
+#: admin/class-paypal-payment-buttons-admin.php:213
+#: admin/class-paypal-payment-buttons-admin.php:307
+msgid "Quantity"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:125
+#: admin/class-paypal-payment-buttons-admin.php:219
+#: admin/class-paypal-payment-buttons-admin.php:313
+#: admin/class-paypal-payment-buttons-admin.php:403
+msgid "Amount"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:131
+#: admin/class-paypal-payment-buttons-admin.php:226
+#: admin/class-paypal-payment-buttons-admin.php:319
+#: admin/class-paypal-payment-buttons-admin.php:409
+msgid "Currency"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:144
+#: admin/class-paypal-payment-buttons-admin.php:239
+#: admin/class-paypal-payment-buttons-admin.php:332
+msgid "Shipping"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:150
+#: admin/class-paypal-payment-buttons-admin.php:245
+#: admin/class-paypal-payment-buttons-admin.php:338
+msgid "Tax"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:156
+#: admin/class-paypal-payment-buttons-admin.php:251
+#: admin/class-paypal-payment-buttons-admin.php:344
+#: admin/class-paypal-payment-buttons-admin.php:439
+msgid "Callback URL"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:162
+#: admin/class-paypal-payment-buttons-admin.php:257
+#: admin/class-paypal-payment-buttons-admin.php:350
+#: admin/class-paypal-payment-buttons-admin.php:445
+msgid "Environment"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:166
+#: admin/class-paypal-payment-buttons-admin.php:261
+#: admin/class-paypal-payment-buttons-admin.php:354
+#: admin/class-paypal-payment-buttons-admin.php:449
+msgid "Sandbox"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:172
+#: admin/class-paypal-payment-buttons-admin.php:267
+#: admin/class-paypal-payment-buttons-admin.php:293
+#: admin/class-paypal-payment-buttons-admin.php:360
+#: admin/class-paypal-payment-buttons-admin.php:455
+msgid "Close"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:173
+#: admin/class-paypal-payment-buttons-admin.php:268
+#: admin/class-paypal-payment-buttons-admin.php:361
+#: admin/class-paypal-payment-buttons-admin.php:456
+msgid "Preview"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:183
+msgid ""
+"Add To Cart buttons let users add multiple items instantly giving your "
+"website a cart "
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:278
+msgid "Donate buttons are great for accepting donations from users "
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:371
+msgid ""
+"Subscribe buttons can be used to set up payment subscriptions with your "
+"users "
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:422
+msgid "Recurrences"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:428
+msgid "Type of Period"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:431
+msgid "Days"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:432
+msgid "Weeks"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:433
+msgid "Months"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:434
+msgid "Years"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:466
+msgid "Important:"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:466
+msgid ""
+"Unless you enable the sandbox environment, all payments made using this code "
+"will be live and not test payments."
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:472
+msgid "United Arab Emirates Dirham (Ø¯.Ø¥)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:473
+msgid "Australian Dollars (&#36;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:474
+msgid "Bangladeshi Taka (&#2547;&nbsp;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:475
+msgid "Brazilian Real (&#82;&#36;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:476
+msgid "Bulgarian Lev (&#1083;&#1074;.)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:477
+msgid "Canadian Dollars (&#36;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:478
+msgid "Chilean Peso (&#36;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:479
+msgid "Chinese Yuan (&yen;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:480
+msgid "Colombian Peso (&#36;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:481
+msgid "Czech Koruna (&#75;&#269;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:482
+msgid "Danish Krone (kr.)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:483
+msgid "Dominican Peso (RD&#36;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:484
+msgid "Euros (&euro;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:485
+msgid "Hong Kong Dollar (&#36;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:486
+msgid "Croatia kuna (Kn)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:487
+msgid "Hungarian Forint (&#70;&#116;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:488
+msgid "Icelandic krona (Kr.)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:489
+msgid "Indonesia Rupiah (Rp)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:490
+msgid "Indian Rupee (Rs.)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:491
+msgid "Nepali Rupee (Rs.)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:492
+msgid "Israeli Shekel (&#8362;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:493
+msgid "Japanese Yen (&yen;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:494
+msgid "Lao Kip (&#8365;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:495
+msgid "South Korean Won (&#8361;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:496
+msgid "Malaysian Ringgits (&#82;&#77;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:497
+msgid "Mexican Peso (&#36;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:498
+msgid "Nigerian Naira (&#8358;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:499
+msgid "Norwegian Krone (&#107;&#114;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:500
+msgid "New Zealand Dollar (&#36;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:501
+msgid "Paraguayan GuaranÃ­ (&#8370;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:502
+msgid "Philippine Pesos (&#8369;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:503
+msgid "Polish Zloty (&#122;&#322;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:504
+msgid "Pounds Sterling (&pound;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:505
+msgid "Romanian Leu (lei)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:506
+msgid "Russian Ruble (&#1088;&#1091;&#1073;.)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:507
+msgid "Singapore Dollar (&#36;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:508
+msgid "South African rand (&#82;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:509
+msgid "Swedish Krona (&#107;&#114;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:510
+msgid "Swiss Franc (&#67;&#72;&#70;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:511
+msgid "Taiwan New Dollars (&#78;&#84;&#36;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:512
+msgid "Thai Baht (&#3647;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:513
+msgid "Turkish Lira (&#8378;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:514
+msgid "Ukrainian Hryvnia (&#8372;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:515
+msgid "US Dollars (&#36;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:516
+msgid "Vietnamese Dong (&#8363;)"
+msgstr ""
+
+#: admin/class-paypal-payment-buttons-admin.php:517
+msgid "Egyptian Pound (EGP)"
+msgstr ""
+
+#: admin/partials/class-paypal-payment-buttons-for-wordpress-html-output.php:278
+msgid "Select a page&hellip;"
+msgstr ""
+
+#: admin/partials/class-paypal-payment-buttons-setting.php:16
+msgid "Paypal Payment Buttons Options Setting Panel"
+msgstr ""
+
+#: admin/partials/class-paypal-payment-buttons-setting.php:18
+msgid "Paypal Merchant id / PayPal Email"
+msgstr ""
+
+#: admin/partials/class-paypal-payment-buttons-setting.php:19
+msgid ""
+"<a target=\"_blank\" href=\"https://www.paypal-community.com/t5/Selling-on-"
+"your-website/how-do-I-find-my-merchant-id/td-p/284430?profile.language=en-gb"
+"\">Need help?</a>"
+msgstr ""
+
+#: admin/partials/class-paypal-payment-buttons-setting.php:34
+msgid "Save changes"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PayPal Payment Buttons"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (PayPal Payment Buttons 1.0.0)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (PayPal Payment Buttons 1.0.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://www.premiumdev.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"PayPal Payment Buttons Developed by an Certified PayPal Developer, official "
+"PayPal Partner."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "mbj-webdevelopment"
+msgstr ""

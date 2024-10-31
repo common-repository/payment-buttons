@@ -1,0 +1,13 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.txtarea_response {
+    color: gray !important;
+    height: auto;
+    margin-bottom: 15px;
+    width: 100% !important;
+}
+.wp-ui-text-highlight {
+    color: #1e8cbe;
+}
